@@ -1,17 +1,10 @@
-import requests, random, subprocess, os, time
+import requests, random, subprocess, os, time, sys
 
 cookies = open('cookies.txt').readlines()
-game_id = 417267366
+game_id = int(sys.argv[1])
 
 def run_required_apps():
-    """
-    subprocess.Popen([
-        'start',
-        'cmd.exe', '@cmd', '/k',
-        'required_apps\\remove_heads'
-    ])
-    """
-
+    os.system('start cmd.exe @cmd /k "required_apps\\remove_heads"') 
     os.system('start cmd.exe @cmd /k "required_apps\\multiple_roblox"') 
 
 def get_authorization_ticket(cookie):
