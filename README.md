@@ -9,6 +9,7 @@ pip install requests
 ```  
   
   
+&nbsp;&nbsp;&nbsp;&nbsp;move the ``main folder`` into your roblox program folder
 &nbsp;&nbsp;&nbsp;&nbsp;move ``bot.lua`` to your **Synapse X autoexec** folder  
 &nbsp;&nbsp;&nbsp;&nbsp;put your alt(s) **.ROBLOSECURITY cookies** into ``cookies.txt``  
 &nbsp;&nbsp;&nbsp;&nbsp;run ``bot.py`` using this command below:  
